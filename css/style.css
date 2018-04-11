@@ -1,0 +1,260 @@
+body{
+	margin: 0;
+	font-family: 'Montserrat';
+}
+
+
+a{
+	text-decoration: none;
+}
+/* menu superior */
+#menu  {
+	margin: 0px;
+	padding: 25px;
+	width: 100%;
+	background-color: rgba(0,0,0, 0.3);
+	position: fixed;
+	height: 5%
+
+}
+
+#menu img{
+	float:left;
+	display: inline-block;
+}
+
+#menu ul{
+	list-style-type: none;
+	margin:0;
+	padding: 0;
+	margin-right: 50px;
+}
+
+#menu li{
+	display: inline;
+	float: right;
+	margin-left: 20px;
+}
+
+#menu a{
+	color: white;
+}
+
+
+
+/*----------------------*/	
+
+/*banner inicial*/ 
+#banner {
+	background-image:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../images/banner.jpg);
+	background-size: cover;
+	text-align: center;
+	padding-top: 30vh;
+	padding-bottom: 30vh;
+	color:white;
+	font-size: 50px;
+	text-shadow: 2px 2px 1px #000;
+
+}
+
+#icone{
+	width: 30px;
+	height: 30px;
+	filter: invert(100);
+}
+
+#caixas {
+	display:block;
+}
+
+#link1 {
+	padding:7px ;
+	border: 1px solid white;
+	display: inline-block;
+	font-size: 30px;
+	color: white;
+
+}
+
+#link2 {
+	padding:7px ;
+	border: 1px solid white;
+	display: inline-block;
+	font-size: 30px;
+	color: white;
+}
+/*-----------------------*/
+
+/*texto com foto*/
+#texto img {
+	float: left;
+	margin:0 20px 10px 0;
+}
+
+#texto {
+	width:75%
+	padding-top:50px;
+	padding-bottom:120px;
+}
+
+#laranjas{
+	color: #fc6059;
+	font-size: 30px;
+}
+
+.hr{
+	height: 2px;
+	background-color: lightgrey;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+/*--------------------------*/
+/* caixa da opção*/
+.titulo{
+	color: #fc6059;
+	font-size: 30px;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+.titulo2{
+	color: #ad2c3d;
+	font-size: 30px;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+.linha_opcoes1{
+		text-align: center;
+}
+
+.caixa_opcoes{
+width: 20%;
+height: 280px;
+padding-bottom: 50px;
+border-style: solid;
+border-width: 2px;
+border-color: lightgrey;
+margin-left:2%;
+margin-right:2.6%;
+float: left;
+display: inline-block;
+}
+.caixa_opcoes:hover{
+	box-shadow: 3px 2px 10px;
+}
+
+
+.caixa_foto1{
+width: auto;
+border-style: solid;
+border-width: 1px;
+border-color: lightgrey;
+background-color: #df5747;
+}
+
+.caixa_foto3{
+width: auto;
+border-style: solid;
+border-width: 1px;
+border-color: lightgrey;
+background-color: #54c7e8 ;
+
+}
+
+.caixa_foto4{
+width: auto;
+height: 205.5px;
+border-style: solid;
+border-width: 1px;
+border-color: lightgrey;
+background-color:#fac459;
+
+}
+
+.caixa_foto5{
+width: auto;
+border-style: solid;
+border-width: 1px;
+border-color: lightgrey;
+background-color: #ba000d;
+
+}
+
+.caixa_foto6{
+width: auto;
+border-style: solid;
+border-width: 1px;
+border-color: lightgrey;
+background-color: #ad2c3d;
+
+}
+
+.caixa_foto7{
+width: auto;
+border-style: solid;
+border-width: 1px;
+border-color: lightgrey;
+background-color:#8349f9;
+height: 209.5px;
+}
+
+
+.linha_opcoes2{
+		text-align: center;
+
+
+}
+
+.coment_foto{
+color: white;
+font-size: 13px;
+text-align: left;
+margin-top: 10px;
+margin-bottom: 10px;
+
+}
+
+.barra_botao{
+width:auto;
+text-align: center;
+margin-bottom: 20px;
+
+}
+
+.coment_botao{
+	width: auto;
+	text-align: center;
+	font-size: 15px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.botao{
+	width: auto;
+	background-color: #ff7824;
+	border-radius: 15px;
+	display: inline-block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding:10px;
+}
+.botao a{
+	font-size: 13px;
+	color: white;
+	letter-spacing: 2px;
+	font-weight: 900;
+}
+
+.bot_ver{
+	display: inline-block;
+	width: 10%;
+	background-color: black;
+	border-radius: 10px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: white;
+}
